@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block content %}
+{% for i in object_list %}
+<ul>
+    <li>
+        {{ i }}
+    </li>
+</ul>
+{% endfor %}
+{% endblock %}
